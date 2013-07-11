@@ -1,5 +1,7 @@
 "use strict";
 
-var SignUpCtrl = function ($scope) {
-  $scope.greeting = 'Hola!';
-};
+angular.module('semestro', []);
+
+var SignUpCtrl = angular.module('semestro').controller('SignUpCtrl', function ($scope) {
+  
+});
